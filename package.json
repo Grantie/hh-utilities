@@ -1,0 +1,31 @@
+{
+  "name": "hh-utilities",
+  "version": "1.0.0",
+  "description": "A utilities bot for the Hangout Haven Discord server.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "registerslashcommands": "node register-commands.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grantie/hh-utilities.git"
+  },
+  "keywords": [
+    "bot",
+    "hh",
+    "hangout"
+  ],
+  "author": "Grantie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Grantie/hh-utilities/issues"
+  },
+  "homepage": "https://github.com/Grantie/hh-utilities#readme",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22",
+    "uuid": "^9.0.0"
+  }
+}
